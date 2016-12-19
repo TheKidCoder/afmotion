@@ -10,7 +10,7 @@ module AFMotion
       else
         self.operation = operation_or_task
       end
-      self.object = responseObject
+      self.object = responseObject || {}
       self.error = error
     end
 
